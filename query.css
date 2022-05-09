@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*body{
+	background-color: green;
+}
+p{
+	text-align: justify;
+	margin: 100px 200px;
+	font-size: 20px;
+	font-family: sans-serif;
+	letter-spacing: 1.2px;
+	line-height: 24px;
+}
+
+
+@media only screen and (max-width: 1300px)
+{
+	body{
+		background-color: red;
+	}
+}
+@media only screen and (max-width: 1100px)
+{
+	body{
+		background-color: yellow;
+	}
+	p{
+		background-color: blue;
+		padding: 10px;
+	}
+}
+@media only screen and (max-width: 1000px)
+{
+	body{
+		background-color: cyan;
+	}
+	p{
+		background-color: grey;
+		padding: 10px;
+	}
+}*/
+
+
+
+
+
+body{
+	background-color: cyan;
+}
+h1{
+	position: relative;
+	left: 700px;
+	top: 100px;
+	color: antiquewhite;
+    background: black;
+    width: 40%;
+    text-align: center;
+}
+p{
+	position: relative;  /* if we will write position relative then we don't need to write margin-left or right we will just write left or top properties in animations at %age like below in sabir name animation*/
+	background-color: red;
+	text-align: justify;
+	width: 200px;
+	height: 125px;
+	padding: 20px;
+	/*margin: 100px 100px;*/
+	border: 2px solid grey;
+	border-radius: 10px;
+	/*animation-name: sabir;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 1s;
+	animation-timing-function: ease;*/
+	animation: sabir 8s linear infinite; 
+}
+
+@keyframes sabir
+{
+	0%{
+		left: 0px;
+		top: 0px;
+		/*margin-left: 0;
+		margin-top: 0;*/
+	}
+	35%{
+		left: 0px;
+		top: 400px;
+		/*margin-left: 0;
+		margin-top: 200px;*/
+	}
+	70%{
+		left: 400px;
+		top: 400px;
+		/*margin-left: 200px;
+		margin-top: 200px;*/
+	}
+	100%{
+		left: 400px;
+		top: 0px;
+		/*margin-left: 200px;
+		margin-top: 0;
+       }
+	
+}
+
+/*{
+	0%{
+		transform: translateX(250px);
+	}
+	100%{
+		transform: translateX(-250);
+	}
+}
+*/
+/*{
+	0%{
+		transform: scale(2);
+		margin: 250px 350px;
+	}
+	100%{
+		transform: scale(4);
+		margin: 250px 350px;
+	}
+}
+*/
+/*{
+	0%{
+		transform: rotate(45deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}*/
+
+/*{
+	from{
+		transform: skew(45deg);
+	}
+		to{
+		transform: skew(180deg);
+	}
+}*/
+
